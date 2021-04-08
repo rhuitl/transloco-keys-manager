@@ -31,7 +31,7 @@ export function buildTranslationFile(
     if (deleteMissing) {
       currentTranslation = deleteMissingKeys(currentTranslation, translation);
     }
-    newTranslation = mergeDeep(translation, currentTranslation);
+    newTranslation = mergeDeep({}, translation, currentTranslation);
   }
 
   fsExtra.outputFileSync(path, stringify(newTranslation));
