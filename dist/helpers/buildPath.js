@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.buildPath=void 0;const isObject_1=require("./isObject");function buildPath(e){return Object.keys(e).reduce((t,i)=>{const s=isObject_1.isObject(e[i])?buildPath(e[i]).map(e=>`${i}.${e}`):[i];return t.push(...s)&&t},[])}exports.buildPath=buildPath;

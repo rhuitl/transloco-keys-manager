@@ -1,0 +1,1 @@
+{"version":3,"file":"toUnixFormat.js","sourceRoot":"","sources":["../../src/helpers/toUnixFormat.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;AAAA,2CAA6B;AAE7B,SAAgB,YAAY,CAAC,CAAC;IAC5B,OAAO,CAAC,CAAC,KAAK,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC;AACrC,CAAC;AAFD,oCAEC"}

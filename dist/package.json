@@ -1,0 +1,58 @@
+{
+  "name": "@ngneat/transloco-keys-manager",
+  "version": "2.7.1",
+  "description": "Extract translatable keys from projects that uses Transloco",
+  "main": "public_api.js",
+  "license": "MIT",
+  "bin": {
+    "transloco-keys-manager": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngneat/transloco-keys-manager.git"
+  },
+  "keywords": [
+    "angular",
+    "angular 2",
+    "i18n",
+    "extract",
+    "transloco",
+    "translate",
+    "keys",
+    "tool",
+    "cli",
+    "webpack"
+  ],
+  "maintainers": [
+    {
+      "name": "Shahar Kazaz"
+    },
+    {
+      "name": "Netanel Basal"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/ngneat/transloco-keys-manager/issues"
+  },
+  "homepage": "https://github.com/ngneat/transloco-keys-manager#readme",
+  "dependencies": {
+    "@ngneat/transloco-utils": "1.1.2",
+    "@phenomnomnominal/tsquery": "4.1.0",
+    "chalk": "4.1.0",
+    "cheerio": "1.0.0-rc.3",
+    "cli-table3": "0.6.0",
+    "command-line-args": "5.1.1",
+    "command-line-usage": "6.1.0",
+    "cosmiconfig": "7.0.0",
+    "debug": "4.1.1",
+    "deep-diff": "1.0.2",
+    "flat": "5.0.2",
+    "fs-extra": "9.0.1",
+    "glob": "7.1.6",
+    "ora": "5.0.0",
+    "os-locale": "5.0.0"
+  }
+}

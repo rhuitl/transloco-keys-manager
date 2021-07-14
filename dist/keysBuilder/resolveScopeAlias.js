@@ -1,0 +1,1 @@
+"use strict";function resolveScopeAlias({scopePath:e,scopes:o}){const s=o.scopeToAlias[e];if(s)return s;const p=e.split("/");p.pop();const t=p.join("/");return t&&o.scopeToAlias[t]}Object.defineProperty(exports,"__esModule",{value:!0}),exports.resolveScopeAlias=void 0,exports.resolveScopeAlias=resolveScopeAlias;

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.countKeys=void 0;const isObject_1=require("./isObject");function countKeys(e){return Object.keys(e).reduce((t,s)=>isObject_1.isObject(e[s])?t+countKeys(e[s]):++t,0)}exports.countKeys=countKeys;

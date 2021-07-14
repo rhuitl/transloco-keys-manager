@@ -1,0 +1,1 @@
+Array.prototype.flat||(Array.prototype.flat=function(){return this.reduce((r,t)=>Array.isArray(t)?r.concat(t):(r.push(t),r),[])});

@@ -1,0 +1,1 @@
+"use strict";function sanitizeForRegex(e){return e.split("").map(e=>["$","^","/"].includes(e)?`\\${e}`:e).join("")}Object.defineProperty(exports,"__esModule",{value:!0}),exports.sanitizeForRegex=void 0,exports.sanitizeForRegex=sanitizeForRegex;

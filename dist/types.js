@@ -1,0 +1,1 @@
+"use strict";var TEMPLATE_TYPE;Object.defineProperty(exports,"__esModule",{value:!0}),exports.TEMPLATE_TYPE=void 0,function(T){T[T.STRUCTURAL=0]="STRUCTURAL",T[T.NG_TEMPLATE=1]="NG_TEMPLATE"}(TEMPLATE_TYPE=exports.TEMPLATE_TYPE||(exports.TEMPLATE_TYPE={}));

@@ -1,0 +1,1 @@
+{"version":3,"file":"isDirectory.js","sourceRoot":"","sources":["../../src/helpers/isDirectory.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;AAAA,uCAAyB;AAEzB,SAAgB,WAAW,CAAC,IAAI;IAC9B,OAAO,EAAE,CAAC,UAAU,CAAC,IAAI,CAAC,IAAI,EAAE,CAAC,SAAS,CAAC,IAAI,CAAC,CAAC,WAAW,EAAE,CAAC;AACjE,CAAC;AAFD,kCAEC"}

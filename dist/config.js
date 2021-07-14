@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getConfig=exports.setConfig=void 0;let config={};function setConfig(e){config=e}function getConfig(){return config}exports.setConfig=setConfig,exports.getConfig=getConfig;

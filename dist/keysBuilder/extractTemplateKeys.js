@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.extractTemplateKeys=void 0;const extractKeys_1=require("./extractKeys"),templateExtractor_1=require("./templateExtractor");function extractTemplateKeys(e){return extractKeys_1.extractKeys(e,"html",templateExtractor_1.templateExtractor)}exports.extractTemplateKeys=extractTemplateKeys;

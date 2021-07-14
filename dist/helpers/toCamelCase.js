@@ -1,0 +1,1 @@
+"use strict";function toCamelCase(e){return e.replace(/(?:^\w|[A-Z]|\b\w)/g,(e,t)=>0===t?e.toLowerCase():e.toUpperCase()).replace(/\s+|_|-|\//g,"")}Object.defineProperty(exports,"__esModule",{value:!0}),exports.toCamelCase=void 0,exports.toCamelCase=toCamelCase;

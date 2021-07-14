@@ -2,7 +2,7 @@
   "name": "@ngneat/transloco-keys-manager",
   "version": "2.7.1",
   "description": "Extract translatable keys from projects that uses Transloco",
-  "main": "public_api.js",
+  "main": "./dist/public_api.js",
   "scripts": {
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors init",
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "bin": {
-    "transloco-keys-manager": "index.js"
+    "transloco-keys-manager": "./dist/index.js"
   },
   "publishConfig": {
     "access": "public"

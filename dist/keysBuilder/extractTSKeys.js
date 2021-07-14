@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.extractTSKeys=void 0;const TSExtractor_1=require("./TSExtractor"),extractKeys_1=require("./extractKeys");function extractTSKeys(t){return extractKeys_1.extractKeys(t,"ts",TSExtractor_1.TSExtractor)}exports.extractTSKeys=extractTSKeys;

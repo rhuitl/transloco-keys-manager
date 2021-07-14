@@ -1,0 +1,1 @@
+"use strict";function initExtraction(){return{scopeToKeys:{__global:{}}}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.initExtraction=void 0,exports.initExtraction=initExtraction;

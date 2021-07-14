@@ -1,0 +1,1 @@
+"use strict";function forEachKey(e,c,o){let t=c.exec(e);for(;t;){const{backtickKey:r,backtickScope:s,scope:f,key:a,key2:i}=t.groups;if(!(a||i||r)){t=c.exec(e);continue}const n=i?[a,i]:[(a||r).replace(/'|"/g,"")];for(const e of n){o(e,f||s)}t=c.exec(e)}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.forEachKey=void 0,exports.forEachKey=forEachKey;

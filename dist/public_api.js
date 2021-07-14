@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var webpack_plugin_1=require("./webpack-plugin");Object.defineProperty(exports,"TranslocoExtractKeysWebpackPlugin",{enumerable:!0,get:function(){return webpack_plugin_1.TranslocoExtractKeysWebpackPlugin}});
